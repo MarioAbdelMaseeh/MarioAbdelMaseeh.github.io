@@ -1,0 +1,36 @@
+.post-page{
+    padding: 10px;
+}
+.postTitle{
+    text-align: left;
+    
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+
+}
+#avatar{
+   width: 50px;
+   float: left;
+   
+
+}
+
+.author-text{
+    margin-left: 10px;
+}
+#name{
+    color: blue;
+    margin-bottom: 0;
+
+}
+#description{
+    margin-top: 5px;
+}
+.img-placeholder{
+    width: 100%;
+}
