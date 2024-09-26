@@ -34,3 +34,40 @@
 .img-placeholder{
     width: 100%;
 }
+
+.fa{
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background-color: #3B5998;
+}
+
+.fa-twitter{
+    background-color: #55ACEE;
+}
+
+.fa-linkedin{
+    background-color: #007bb5;
+}
+
+.fa-instagram{
+    background-color: #ea4c89;
+}
+
+.social-sharing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
