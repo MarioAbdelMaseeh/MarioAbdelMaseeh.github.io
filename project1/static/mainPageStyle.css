@@ -1,6 +1,6 @@
-@import"../blogPost/Blogpost.css";
+@import"Blogpost.css";
 @import"Typography.css";
-@import"../blogPost/fa-icons.css";
+@import"fa-icons.css";
 
 body{
     margin: 0;
