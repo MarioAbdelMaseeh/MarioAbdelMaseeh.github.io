@@ -1,4 +1,6 @@
 @import"../blogPost/Blogpost.css";
+@import"Typography.css";
+
 body{
     margin: 0;
     padding: 0;
@@ -34,14 +36,11 @@ body{
     display: block;
     padding: 5px 0px;
     color: #f5f4f4;
-    font-size: medium;
-    font-weight: 700;
 }
 .link:hover{
     color: rgb(0, 0, 0);
 }
 .title{
-    font-size: 3em;
     grid-area: hd;
     text-align: center;
 }
@@ -85,7 +84,7 @@ footer{
     
 }
 
-@media(min-width:600px) and (max-width:899px){
+@media(min-width:600px){
     .main-page{
         grid-template-columns: repeat(2,1fr) ;
         grid-template-areas:
