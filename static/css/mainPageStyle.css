@@ -88,6 +88,17 @@ footer{
     width: 120px; 
 }
 
+.fig{
+    padding: 0;
+    margin: 0;
+}
+
+figcaption{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75em;
+}
+
 @media(min-width:600px){
     .main-page{
         grid-template-columns: repeat(2,1fr) ;
